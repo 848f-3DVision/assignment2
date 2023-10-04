@@ -10,7 +10,7 @@ After unzipping, set the appropiate path references in `dataset_location.py` fil
 Make sure you have installed the packages mentioned in `requirements.txt`.
 This assignment will need the GPU version of pytorch.
 
-**TODO: how to set up env on UMIACS cluster.**
+[How to use GPUs on UMIACS cluster?](https://wiki.umiacs.umd.edu/umiacs/index.php/ClassAccounts#Cluster_Usage)
 
 ## 1. Exploring loss functions (15 points)
 This section will involve defining a loss function, for fitting voxels, point clouds and meshes.
