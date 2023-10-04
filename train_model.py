@@ -8,7 +8,6 @@ import dataset_location
 from pytorch3d.ops import sample_points_from_meshes
 import losses
 
-
 def get_args_parser():
     parser = argparse.ArgumentParser('Singleto3D', add_help=False)
     # Model parameters
