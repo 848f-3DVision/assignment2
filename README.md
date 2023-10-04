@@ -31,7 +31,7 @@ Define the loss functions [here](https://github.com/848f-3DVision/assignment2/bl
 
 Run the file `python fit_data.py --type 'point'`, to fit the source point cloud to the target point cloud. 
 
-**Visualize the optimized voxel grid along-side the ground truth voxel grid using the tools learnt in previous section.**
+**Visualize the optimized point cloud along-side the ground truth point cloud using the tools learnt in previous section.**
 
 ### 1.3. Fitting a mesh (5 points)
 In this subsection, we will define an additional smoothening loss that can help us <b> fit a mesh</b>.
@@ -41,7 +41,7 @@ For this you can use the pre-defined losses in pytorch library.
 
 Run the file `python fit_data.py --type 'mesh'`, to fit the source mesh to the target mesh. 
 
-**Visualize the optimized voxel grid along-side the ground truth voxel grid using the tools learnt in previous section.**
+**Visualize the optimized mesh along-side the ground truth mesh using the tools learnt in previous section.**
 
 ## 2. Reconstructing 3D from single view (85 points)
 This section will involve training a single view to 3D pipeline for voxels, point clouds and meshes.
