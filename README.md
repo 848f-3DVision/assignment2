@@ -102,7 +102,7 @@ For evaluating you can run:
 
 On your webpage, you should include the f1-score curve at different thresholds for voxelgrid, pointcloud and the mesh network. The plot is saved as `eval_{type}.png`.
 
-### 2.5. Analyse effects of hyperparms variations (15 points)
+### 2.5. Analyse effects of hyperparms variations (5 points)
 Analyse the results, by varying an hyperparameter of your choice.
 For example `n_points` or `vox_size` or `w_chamfer` or `initial mesh(ico_sphere)` etc.
 Try to be unique and conclusive in your analysis.
