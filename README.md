@@ -8,6 +8,7 @@ Please download and extract the dataset from [here](https://drive.google.com/fil
 After unzipping, set the appropiate path references in `dataset_location.py` file [here](https://github.com/848f-3DVision/assignment2/blob/main/dataset_location.py#L2)
 
 ```
+# Better do this after you've secured a GPU.
 conda create -n pytorch3d-env python=3.9
 conda activate pytorch3d-env
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
