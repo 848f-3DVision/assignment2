@@ -7,6 +7,15 @@ Goals: In this assignment, you will explore the types of loss and decoder functi
 Please download and extract the dataset from [here](https://drive.google.com/file/d/1VoSmRA9KIwaH56iluUuBEBwCbbq3x7Xt/view?usp=sharing).
 After unzipping, set the appropiate path references in `dataset_location.py` file [here](https://github.com/848f-3DVision/assignment2/blob/main/dataset_location.py#L2)
 
+```
+conda create -n pytorch3d-env python=3.9
+conda activate pytorch3d-env
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
+conda install -c fvcore -c iopath -c conda-forge fvcore iopath
+conda install pytorch3d -c pytorch3d
+pip install numpy PyMCubes matplotlib
+```
+
 Make sure you have installed the packages mentioned in `requirements.txt`.
 This assignment will need the GPU version of pytorch.
 
